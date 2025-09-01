@@ -2,7 +2,7 @@
 
 count=0
 
-if [[ ! -f "$1"]]; then
+if [[ -n "$1" && ! -f "$1"]]; then
     echo $count
     exit 0
 fi
