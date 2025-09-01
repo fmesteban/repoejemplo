@@ -2,7 +2,12 @@
 
 count=0
 
-while read -r line; do
+if [[ ! -f "$1"]]; then
+    echo $count
+    exit 0
+fi
+
+while read -r line || [[ -n "$line" ]]; do
     for word in $line; do
         count=$((count + 1))
     done
