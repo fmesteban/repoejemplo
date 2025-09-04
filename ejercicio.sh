@@ -12,9 +12,9 @@ while read -r line || [ -n "$line" ]; do
     for word in $line; do
         count=$((count + 1))
     done
-done < "${1:-/dev/stdin}"   # Si no me pasan un archivo, leo de stdin.
+done < "${1:-/dev/stdin}"
 
 echo $count
 
 
-echo "Hola Fede! Estoy commiteando"
+echo "Hola Fede! Estoy comiteando"
