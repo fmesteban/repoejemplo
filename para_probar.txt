@@ -1,4 +1,5 @@
 Me gustaría
 que cuente cuántas
+lineas y cuantas
 palabras tiene
 este archivo que va a terminar sin nuevo línea.
